@@ -5,60 +5,144 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 美国1丨TXC专享丨Weoworks, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: true, udp: true}
+  - {name: 美国2丨TXC专享丨Weoworks, server: 38.75.136.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国3丨TXC专享丨Weoworks, server: hkaz4.xmrth-node.xyz, port: 13302, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 美国4丨TXC专享丨Weoworks, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1丨TXC专享丨Weoworks, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
+  - {name: 新加坡2丨TXC专享丨Weoworks, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
+  - {name: 小樱花1丨TXC专享丨Weoworks, server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 小樱花2丨TXC专享丨Weoworks, server: 172.105.244.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 小樱花3丨TXC专享丨Weoworks, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 小樱花4丨TXC专享丨Weoworks, server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 小樱花5丨TXC专享丨Weoworks, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾丨TXC专享丨Weoworks, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
   - {name: 法国丨TXC专享丨Weoworks, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yzkoyeb-7595333.koyeb.app}}, udp: true}
-  - {name: 欧洲丨TXC专享丨Weoworks, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: 小樱花丨TXC专享丨Weoworks, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
+  - {name: 未知丨TXC专享丨Weoworks, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 慢樱花丨TXC专享丨Weoworks, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 美国1丨TXC专享丨Weoworks
+      - 美国2丨TXC专享丨Weoworks
+      - 美国3丨TXC专享丨Weoworks
+      - 美国4丨TXC专享丨Weoworks
+      - 新加坡1丨TXC专享丨Weoworks
+      - 新加坡2丨TXC专享丨Weoworks
+      - 小樱花1丨TXC专享丨Weoworks
+      - 小樱花2丨TXC专享丨Weoworks
+      - 小樱花3丨TXC专享丨Weoworks
+      - 小樱花4丨TXC专享丨Weoworks
+      - 小樱花5丨TXC专享丨Weoworks
+      - 台湾丨TXC专享丨Weoworks
       - 法国丨TXC专享丨Weoworks
-      - 欧洲丨TXC专享丨Weoworks
-      - 小樱花丨TXC专享丨Weoworks
+      - 未知丨TXC专享丨Weoworks
+      - 慢樱花丨TXC专享丨Weoworks
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 美国1丨TXC专享丨Weoworks
+      - 美国2丨TXC专享丨Weoworks
+      - 美国3丨TXC专享丨Weoworks
+      - 美国4丨TXC专享丨Weoworks
+      - 新加坡1丨TXC专享丨Weoworks
+      - 新加坡2丨TXC专享丨Weoworks
+      - 小樱花1丨TXC专享丨Weoworks
+      - 小樱花2丨TXC专享丨Weoworks
+      - 小樱花3丨TXC专享丨Weoworks
+      - 小樱花4丨TXC专享丨Weoworks
+      - 小樱花5丨TXC专享丨Weoworks
+      - 台湾丨TXC专享丨Weoworks
       - 法国丨TXC专享丨Weoworks
-      - 欧洲丨TXC专享丨Weoworks
-      - 小樱花丨TXC专享丨Weoworks
+      - 未知丨TXC专享丨Weoworks
+      - 慢樱花丨TXC专享丨Weoworks
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国1丨TXC专享丨Weoworks
+      - 美国2丨TXC专享丨Weoworks
+      - 美国3丨TXC专享丨Weoworks
+      - 美国4丨TXC专享丨Weoworks
+      - 新加坡1丨TXC专享丨Weoworks
+      - 新加坡2丨TXC专享丨Weoworks
+      - 小樱花1丨TXC专享丨Weoworks
+      - 小樱花2丨TXC专享丨Weoworks
+      - 小樱花3丨TXC专享丨Weoworks
+      - 小樱花4丨TXC专享丨Weoworks
+      - 小樱花5丨TXC专享丨Weoworks
+      - 台湾丨TXC专享丨Weoworks
       - 法国丨TXC专享丨Weoworks
-      - 欧洲丨TXC专享丨Weoworks
-      - 小樱花丨TXC专享丨Weoworks
+      - 未知丨TXC专享丨Weoworks
+      - 慢樱花丨TXC专享丨Weoworks
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 美国1丨TXC专享丨Weoworks
+      - 美国2丨TXC专享丨Weoworks
+      - 美国3丨TXC专享丨Weoworks
+      - 美国4丨TXC专享丨Weoworks
+      - 新加坡1丨TXC专享丨Weoworks
+      - 新加坡2丨TXC专享丨Weoworks
+      - 小樱花1丨TXC专享丨Weoworks
+      - 小樱花2丨TXC专享丨Weoworks
+      - 小樱花3丨TXC专享丨Weoworks
+      - 小樱花4丨TXC专享丨Weoworks
+      - 小樱花5丨TXC专享丨Weoworks
+      - 台湾丨TXC专享丨Weoworks
       - 法国丨TXC专享丨Weoworks
-      - 欧洲丨TXC专享丨Weoworks
-      - 小樱花丨TXC专享丨Weoworks
+      - 未知丨TXC专享丨Weoworks
+      - 慢樱花丨TXC专享丨Weoworks
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 美国1丨TXC专享丨Weoworks
+      - 美国2丨TXC专享丨Weoworks
+      - 美国3丨TXC专享丨Weoworks
+      - 美国4丨TXC专享丨Weoworks
+      - 新加坡1丨TXC专享丨Weoworks
+      - 新加坡2丨TXC专享丨Weoworks
+      - 小樱花1丨TXC专享丨Weoworks
+      - 小樱花2丨TXC专享丨Weoworks
+      - 小樱花3丨TXC专享丨Weoworks
+      - 小樱花4丨TXC专享丨Weoworks
+      - 小樱花5丨TXC专享丨Weoworks
+      - 台湾丨TXC专享丨Weoworks
       - 法国丨TXC专享丨Weoworks
-      - 欧洲丨TXC专享丨Weoworks
-      - 小樱花丨TXC专享丨Weoworks
+      - 未知丨TXC专享丨Weoworks
+      - 慢樱花丨TXC专享丨Weoworks
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 美国1丨TXC专享丨Weoworks
+      - 美国2丨TXC专享丨Weoworks
+      - 美国3丨TXC专享丨Weoworks
+      - 美国4丨TXC专享丨Weoworks
+      - 新加坡1丨TXC专享丨Weoworks
+      - 新加坡2丨TXC专享丨Weoworks
+      - 小樱花1丨TXC专享丨Weoworks
+      - 小樱花2丨TXC专享丨Weoworks
+      - 小樱花3丨TXC专享丨Weoworks
+      - 小樱花4丨TXC专享丨Weoworks
+      - 小樱花5丨TXC专享丨Weoworks
+      - 台湾丨TXC专享丨Weoworks
       - 法国丨TXC专享丨Weoworks
-      - 欧洲丨TXC专享丨Weoworks
-      - 小樱花丨TXC专享丨Weoworks
+      - 未知丨TXC专享丨Weoworks
+      - 慢樱花丨TXC专享丨Weoworks
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -81,9 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国1丨TXC专享丨Weoworks
+      - 美国2丨TXC专享丨Weoworks
+      - 美国3丨TXC专享丨Weoworks
+      - 美国4丨TXC专享丨Weoworks
+      - 新加坡1丨TXC专享丨Weoworks
+      - 新加坡2丨TXC专享丨Weoworks
+      - 小樱花1丨TXC专享丨Weoworks
+      - 小樱花2丨TXC专享丨Weoworks
+      - 小樱花3丨TXC专享丨Weoworks
+      - 小樱花4丨TXC专享丨Weoworks
+      - 小樱花5丨TXC专享丨Weoworks
+      - 台湾丨TXC专享丨Weoworks
       - 法国丨TXC专享丨Weoworks
-      - 欧洲丨TXC专享丨Weoworks
-      - 小樱花丨TXC专享丨Weoworks
+      - 未知丨TXC专享丨Weoworks
+      - 慢樱花丨TXC专享丨Weoworks
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
