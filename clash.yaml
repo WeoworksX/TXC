@@ -5,172 +5,88 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 速食泡菜(韩国)丨TXC专享丨Weoworks, server: 124.71.118.225, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 大樱花1丨TXC专享丨Weoworks, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 大樱花2丨TXC专享丨Weoworks, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
   - {name: 快樱花1丨TXC专享丨Weoworks, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 快樱花2丨TXC专享丨Weoworks, server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 快樱花3丨TXC专享丨Weoworks, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
-  - {name: 快樱花4丨TXC专享丨Weoworks, server: 124.71.118.225, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 小樱花1丨TXC专享丨Weoworks, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: www.msn.cn}}, udp: true}
-  - {name: 小樱花2丨TXC专享丨Weoworks, server: v4zx.v6speed.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 小樱花3丨TXC专享丨Weoworks, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国1丨TXC专享丨Weoworks, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
-  - {name: 美国2丨TXC专享丨Weoworks, server: 124.71.118.225, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 新加坡(快)丨TXC专享丨Weoworks, server: 45.118.133.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 台独去死丨TXC专享丨Weoworks, server: 124.71.118.225, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 香港快餐丨TXC专享丨Weoworks, server: 124.71.118.225, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 港独去死1丨TXC专享丨Weoworks, server: 124.71.118.225, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 港独去死2丨TXC专享丨Weoworks, server: sgiplcv1.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 巨蜥噩梦(印度)丨TXC专享丨Weoworks, server: www.digitalocean.com, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws, headers: {Host: in.884899.cf}}, udp: true}
-  - {name: 限定菲律宾丨TXC专享丨Weoworks, server: flzziplc.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 快樱花2丨TXC专享丨Weoworks, server: 85.208.108.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 小樱花1丨TXC专享丨Weoworks, server: 119.147.2.245, port: 58828, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: 小樱花2丨TXC专享丨Weoworks, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 巨蜥噩梦1(印度)丨TXC专享丨Weoworks, server: www.digitalocean.com, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws, headers: {Host: in.884899.cf}}, udp: true}
+  - {name: 巨蜥噩梦2(印度)丨TXC专享丨Weoworks, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 漂亮国丨TXC专享丨Weoworks, server: us-ca1.qwqjsq.top, port: 80, type: vmess, uuid: b0543a3b-d690-3ed9-9a81-f24f852e74f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 速食泡菜(韩国)丨TXC专享丨Weoworks
-      - 大樱花1丨TXC专享丨Weoworks
-      - 大樱花2丨TXC专享丨Weoworks
       - 快樱花1丨TXC专享丨Weoworks
       - 快樱花2丨TXC专享丨Weoworks
-      - 快樱花3丨TXC专享丨Weoworks
-      - 快樱花4丨TXC专享丨Weoworks
       - 小樱花1丨TXC专享丨Weoworks
       - 小樱花2丨TXC专享丨Weoworks
-      - 小樱花3丨TXC专享丨Weoworks
-      - 美国1丨TXC专享丨Weoworks
-      - 美国2丨TXC专享丨Weoworks
-      - 新加坡(快)丨TXC专享丨Weoworks
-      - 台独去死丨TXC专享丨Weoworks
-      - 香港快餐丨TXC专享丨Weoworks
-      - 港独去死1丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 巨蜥噩梦(印度)丨TXC专享丨Weoworks
-      - 限定菲律宾丨TXC专享丨Weoworks
+      - 巨蜥噩梦1(印度)丨TXC专享丨Weoworks
+      - 巨蜥噩梦2(印度)丨TXC专享丨Weoworks
+      - 漂亮国丨TXC专享丨Weoworks
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 速食泡菜(韩国)丨TXC专享丨Weoworks
-      - 大樱花1丨TXC专享丨Weoworks
-      - 大樱花2丨TXC专享丨Weoworks
       - 快樱花1丨TXC专享丨Weoworks
       - 快樱花2丨TXC专享丨Weoworks
-      - 快樱花3丨TXC专享丨Weoworks
-      - 快樱花4丨TXC专享丨Weoworks
       - 小樱花1丨TXC专享丨Weoworks
       - 小樱花2丨TXC专享丨Weoworks
-      - 小樱花3丨TXC专享丨Weoworks
-      - 美国1丨TXC专享丨Weoworks
-      - 美国2丨TXC专享丨Weoworks
-      - 新加坡(快)丨TXC专享丨Weoworks
-      - 台独去死丨TXC专享丨Weoworks
-      - 香港快餐丨TXC专享丨Weoworks
-      - 港独去死1丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 巨蜥噩梦(印度)丨TXC专享丨Weoworks
-      - 限定菲律宾丨TXC专享丨Weoworks
+      - 巨蜥噩梦1(印度)丨TXC专享丨Weoworks
+      - 巨蜥噩梦2(印度)丨TXC专享丨Weoworks
+      - 漂亮国丨TXC专享丨Weoworks
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 速食泡菜(韩国)丨TXC专享丨Weoworks
-      - 大樱花1丨TXC专享丨Weoworks
-      - 大樱花2丨TXC专享丨Weoworks
       - 快樱花1丨TXC专享丨Weoworks
       - 快樱花2丨TXC专享丨Weoworks
-      - 快樱花3丨TXC专享丨Weoworks
-      - 快樱花4丨TXC专享丨Weoworks
       - 小樱花1丨TXC专享丨Weoworks
       - 小樱花2丨TXC专享丨Weoworks
-      - 小樱花3丨TXC专享丨Weoworks
-      - 美国1丨TXC专享丨Weoworks
-      - 美国2丨TXC专享丨Weoworks
-      - 新加坡(快)丨TXC专享丨Weoworks
-      - 台独去死丨TXC专享丨Weoworks
-      - 香港快餐丨TXC专享丨Weoworks
-      - 港独去死1丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 巨蜥噩梦(印度)丨TXC专享丨Weoworks
-      - 限定菲律宾丨TXC专享丨Weoworks
+      - 巨蜥噩梦1(印度)丨TXC专享丨Weoworks
+      - 巨蜥噩梦2(印度)丨TXC专享丨Weoworks
+      - 漂亮国丨TXC专享丨Weoworks
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 速食泡菜(韩国)丨TXC专享丨Weoworks
-      - 大樱花1丨TXC专享丨Weoworks
-      - 大樱花2丨TXC专享丨Weoworks
       - 快樱花1丨TXC专享丨Weoworks
       - 快樱花2丨TXC专享丨Weoworks
-      - 快樱花3丨TXC专享丨Weoworks
-      - 快樱花4丨TXC专享丨Weoworks
       - 小樱花1丨TXC专享丨Weoworks
       - 小樱花2丨TXC专享丨Weoworks
-      - 小樱花3丨TXC专享丨Weoworks
-      - 美国1丨TXC专享丨Weoworks
-      - 美国2丨TXC专享丨Weoworks
-      - 新加坡(快)丨TXC专享丨Weoworks
-      - 台独去死丨TXC专享丨Weoworks
-      - 香港快餐丨TXC专享丨Weoworks
-      - 港独去死1丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 巨蜥噩梦(印度)丨TXC专享丨Weoworks
-      - 限定菲律宾丨TXC专享丨Weoworks
+      - 巨蜥噩梦1(印度)丨TXC专享丨Weoworks
+      - 巨蜥噩梦2(印度)丨TXC专享丨Weoworks
+      - 漂亮国丨TXC专享丨Weoworks
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 速食泡菜(韩国)丨TXC专享丨Weoworks
-      - 大樱花1丨TXC专享丨Weoworks
-      - 大樱花2丨TXC专享丨Weoworks
       - 快樱花1丨TXC专享丨Weoworks
       - 快樱花2丨TXC专享丨Weoworks
-      - 快樱花3丨TXC专享丨Weoworks
-      - 快樱花4丨TXC专享丨Weoworks
       - 小樱花1丨TXC专享丨Weoworks
       - 小樱花2丨TXC专享丨Weoworks
-      - 小樱花3丨TXC专享丨Weoworks
-      - 美国1丨TXC专享丨Weoworks
-      - 美国2丨TXC专享丨Weoworks
-      - 新加坡(快)丨TXC专享丨Weoworks
-      - 台独去死丨TXC专享丨Weoworks
-      - 香港快餐丨TXC专享丨Weoworks
-      - 港独去死1丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 巨蜥噩梦(印度)丨TXC专享丨Weoworks
-      - 限定菲律宾丨TXC专享丨Weoworks
+      - 巨蜥噩梦1(印度)丨TXC专享丨Weoworks
+      - 巨蜥噩梦2(印度)丨TXC专享丨Weoworks
+      - 漂亮国丨TXC专享丨Weoworks
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 速食泡菜(韩国)丨TXC专享丨Weoworks
-      - 大樱花1丨TXC专享丨Weoworks
-      - 大樱花2丨TXC专享丨Weoworks
       - 快樱花1丨TXC专享丨Weoworks
       - 快樱花2丨TXC专享丨Weoworks
-      - 快樱花3丨TXC专享丨Weoworks
-      - 快樱花4丨TXC专享丨Weoworks
       - 小樱花1丨TXC专享丨Weoworks
       - 小樱花2丨TXC专享丨Weoworks
-      - 小樱花3丨TXC专享丨Weoworks
-      - 美国1丨TXC专享丨Weoworks
-      - 美国2丨TXC专享丨Weoworks
-      - 新加坡(快)丨TXC专享丨Weoworks
-      - 台独去死丨TXC专享丨Weoworks
-      - 香港快餐丨TXC专享丨Weoworks
-      - 港独去死1丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 巨蜥噩梦(印度)丨TXC专享丨Weoworks
-      - 限定菲律宾丨TXC专享丨Weoworks
+      - 巨蜥噩梦1(印度)丨TXC专享丨Weoworks
+      - 巨蜥噩梦2(印度)丨TXC专享丨Weoworks
+      - 漂亮国丨TXC专享丨Weoworks
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,25 +109,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 速食泡菜(韩国)丨TXC专享丨Weoworks
-      - 大樱花1丨TXC专享丨Weoworks
-      - 大樱花2丨TXC专享丨Weoworks
       - 快樱花1丨TXC专享丨Weoworks
       - 快樱花2丨TXC专享丨Weoworks
-      - 快樱花3丨TXC专享丨Weoworks
-      - 快樱花4丨TXC专享丨Weoworks
       - 小樱花1丨TXC专享丨Weoworks
       - 小樱花2丨TXC专享丨Weoworks
-      - 小樱花3丨TXC专享丨Weoworks
-      - 美国1丨TXC专享丨Weoworks
-      - 美国2丨TXC专享丨Weoworks
-      - 新加坡(快)丨TXC专享丨Weoworks
-      - 台独去死丨TXC专享丨Weoworks
-      - 香港快餐丨TXC专享丨Weoworks
-      - 港独去死1丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 巨蜥噩梦(印度)丨TXC专享丨Weoworks
-      - 限定菲律宾丨TXC专享丨Weoworks
+      - 巨蜥噩梦1(印度)丨TXC专享丨Weoworks
+      - 巨蜥噩梦2(印度)丨TXC专享丨Weoworks
+      - 漂亮国丨TXC专享丨Weoworks
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
