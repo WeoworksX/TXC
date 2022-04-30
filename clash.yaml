@@ -6,7 +6,8 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 速食泡菜(韩国)丨Weo专享丨ok1991搬运死妈, server: 124.71.118.225, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 大樱花丨Weo专享丨ok1991搬运死妈, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 大樱花1丨TXC分享丨Weoworks, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 大樱花2丨Weo专享丨ok1991搬运死妈, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
   - {name: 快樱花1丨Weo专享丨ok1991搬运死妈, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 快樱花2丨Weo专享丨ok1991搬运死妈, server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 快樱花3丨Weo专享丨ok1991搬运死妈, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/news, headers: {Host: gz-1.jiasugou.one}}, udp: true}
@@ -31,7 +32,8 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 速食泡菜(韩国)丨Weo专享丨ok1991搬运死妈
-      - 大樱花丨Weo专享丨ok1991搬运死妈
+      - 大樱花1丨TXC分享丨Weoworks
+      - 大樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花1丨Weo专享丨ok1991搬运死妈
       - 快樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花3丨Weo专享丨ok1991搬运死妈
@@ -56,7 +58,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 速食泡菜(韩国)丨Weo专享丨ok1991搬运死妈
-      - 大樱花丨Weo专享丨ok1991搬运死妈
+      - 大樱花1丨TXC分享丨Weoworks
+      - 大樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花1丨Weo专享丨ok1991搬运死妈
       - 快樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花3丨Weo专享丨ok1991搬运死妈
@@ -81,7 +84,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 速食泡菜(韩国)丨Weo专享丨ok1991搬运死妈
-      - 大樱花丨Weo专享丨ok1991搬运死妈
+      - 大樱花1丨TXC分享丨Weoworks
+      - 大樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花1丨Weo专享丨ok1991搬运死妈
       - 快樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花3丨Weo专享丨ok1991搬运死妈
@@ -105,7 +109,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 速食泡菜(韩国)丨Weo专享丨ok1991搬运死妈
-      - 大樱花丨Weo专享丨ok1991搬运死妈
+      - 大樱花1丨TXC分享丨Weoworks
+      - 大樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花1丨Weo专享丨ok1991搬运死妈
       - 快樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花3丨Weo专享丨ok1991搬运死妈
@@ -129,7 +134,8 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 速食泡菜(韩国)丨Weo专享丨ok1991搬运死妈
-      - 大樱花丨Weo专享丨ok1991搬运死妈
+      - 大樱花1丨TXC分享丨Weoworks
+      - 大樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花1丨Weo专享丨ok1991搬运死妈
       - 快樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花3丨Weo专享丨ok1991搬运死妈
@@ -153,7 +159,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 速食泡菜(韩国)丨Weo专享丨ok1991搬运死妈
-      - 大樱花丨Weo专享丨ok1991搬运死妈
+      - 大樱花1丨TXC分享丨Weoworks
+      - 大樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花1丨Weo专享丨ok1991搬运死妈
       - 快樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花3丨Weo专享丨ok1991搬运死妈
@@ -194,7 +201,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 速食泡菜(韩国)丨Weo专享丨ok1991搬运死妈
-      - 大樱花丨Weo专享丨ok1991搬运死妈
+      - 大樱花1丨TXC分享丨Weoworks
+      - 大樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花1丨Weo专享丨ok1991搬运死妈
       - 快樱花2丨Weo专享丨ok1991搬运死妈
       - 快樱花3丨Weo专享丨ok1991搬运死妈
