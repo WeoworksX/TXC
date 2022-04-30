@@ -8,6 +8,7 @@ proxies:
   - {name: 快樱花丨TXC专享丨Weoworks, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 漂亮国丨TXC专享丨Weoworks, server: 45.76.175.3, port: 39723, type: vmess, uuid: edf11a4e-3d4d-456e-87a1-c657f05bff5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aTthb8Zx/}, udp: true}
   - {name: 港独去死丨TXC专享丨Weoworks, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 321787d5-f29b-492a-a0dc-1628e1d0edb6, udp: true}
+  - {name: 韩国(备用)丨TXC专享丨Weoworks, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -17,6 +18,7 @@ proxy-groups:
       - 快樱花丨TXC专享丨Weoworks
       - 漂亮国丨TXC专享丨Weoworks
       - 港独去死丨TXC专享丨Weoworks
+      - 韩国(备用)丨TXC专享丨Weoworks
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -26,6 +28,7 @@ proxy-groups:
       - 快樱花丨TXC专享丨Weoworks
       - 漂亮国丨TXC专享丨Weoworks
       - 港独去死丨TXC专享丨Weoworks
+      - 韩国(备用)丨TXC专享丨Weoworks
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -35,6 +38,7 @@ proxy-groups:
       - 快樱花丨TXC专享丨Weoworks
       - 漂亮国丨TXC专享丨Weoworks
       - 港独去死丨TXC专享丨Weoworks
+      - 韩国(备用)丨TXC专享丨Weoworks
   - name: 📲 电报信息
     type: select
     proxies:
@@ -43,6 +47,7 @@ proxy-groups:
       - 快樱花丨TXC专享丨Weoworks
       - 漂亮国丨TXC专享丨Weoworks
       - 港独去死丨TXC专享丨Weoworks
+      - 韩国(备用)丨TXC专享丨Weoworks
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -51,6 +56,7 @@ proxy-groups:
       - 快樱花丨TXC专享丨Weoworks
       - 漂亮国丨TXC专享丨Weoworks
       - 港独去死丨TXC专享丨Weoworks
+      - 韩国(备用)丨TXC专享丨Weoworks
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -59,6 +65,7 @@ proxy-groups:
       - 快樱花丨TXC专享丨Weoworks
       - 漂亮国丨TXC专享丨Weoworks
       - 港独去死丨TXC专享丨Weoworks
+      - 韩国(备用)丨TXC专享丨Weoworks
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,6 +91,7 @@ proxy-groups:
       - 快樱花丨TXC专享丨Weoworks
       - 漂亮国丨TXC专享丨Weoworks
       - 港独去死丨TXC专享丨Weoworks
+      - 韩国(备用)丨TXC专享丨Weoworks
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
