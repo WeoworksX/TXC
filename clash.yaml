@@ -32,7 +32,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 100
     tolerance: 50
     proxies:
       - 新加坡1丨TXC丨WeoworksX爬取
