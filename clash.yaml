@@ -5,88 +5,102 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡丨TXC专享丨Weoworks, server: cm1-sg.hutaod.me, port: 12336, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 港独去死丨TXC专享丨Weoworks, server: cm1-hk.hutaod.me, port: 12434, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 港独去死2丨TXC专享丨Weoworks, server: cm1-hk.hutaod.me, port: 12438, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国1丨TXC专享丨Weoworks, server: v4zx.v6speed.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国2丨TXC专享丨Weoworks, server: gzjpiplc.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国3丨TXC专享丨Weoworks, server: sgiplcv1.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 未知丨TXC专享丨Weoworks, server: cm1-us.hutaod.me, port: 12232, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1丨TXC丨WeoworksX爬取, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 新加坡2丨TXC丨WeoworksX爬取, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: 新加坡3丨TXC丨Weoworks爬取, server: sg1.qingyun123.xyz, port: 10001, type: trojan, password: 4337dfb9-bc77-4c08-8672-1f12f4d6f7fb, skip-cert-verify: true, udp: true}
+  - {name: 漂亮国丨TXC专享丨Weoworks(老), server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 大樱花丨绿头丨WeoworksX爬取, server: colagzcm.jumpwallsocks.online, port: 32001, type: trojan, password: 86db2fb9-57b8-4f4b-8dec-f16dd062c14b, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: true, udp: true}
+  - {name: 台湾丨绿头丨WeoworksX爬取, server: colagzcm.jumpwallsocks.online, port: 38001, type: trojan, password: 86db2fb9-57b8-4f4b-8dec-f16dd062c14b, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: true, udp: true}
+  - {name: 印度丨TXC丨WeoworksX爬取, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: 泰国(限定)丨TXC丨Weoworks爬取, server: colagzcm.jumpwallsocks.online, port: 33003, type: trojan, password: 86db2fb9-57b8-4f4b-8dec-f16dd062c14b, skip-cert-verify: true, udp: true}
+  - {name: 未知1丨绿头丨WeoworksX爬取, server: colagzcm.jumpwallsocks.online, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 86db2fb9-57b8-4f4b-8dec-f16dd062c14b, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 新加坡丨TXC专享丨Weoworks
-      - 港独去死丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 英国1丨TXC专享丨Weoworks
-      - 英国2丨TXC专享丨Weoworks
-      - 英国3丨TXC专享丨Weoworks
-      - 未知丨TXC专享丨Weoworks
+      - 新加坡1丨TXC丨WeoworksX爬取
+      - 新加坡2丨TXC丨WeoworksX爬取
+      - 新加坡3丨TXC丨Weoworks爬取
+      - 漂亮国丨TXC专享丨Weoworks(老)
+      - 大樱花丨绿头丨WeoworksX爬取
+      - 台湾丨绿头丨WeoworksX爬取
+      - 印度丨TXC丨WeoworksX爬取
+      - 泰国(限定)丨TXC丨Weoworks爬取
+      - 未知1丨绿头丨WeoworksX爬取
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡丨TXC专享丨Weoworks
-      - 港独去死丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 英国1丨TXC专享丨Weoworks
-      - 英国2丨TXC专享丨Weoworks
-      - 英国3丨TXC专享丨Weoworks
-      - 未知丨TXC专享丨Weoworks
+      - 新加坡1丨TXC丨WeoworksX爬取
+      - 新加坡2丨TXC丨WeoworksX爬取
+      - 新加坡3丨TXC丨Weoworks爬取
+      - 漂亮国丨TXC专享丨Weoworks(老)
+      - 大樱花丨绿头丨WeoworksX爬取
+      - 台湾丨绿头丨WeoworksX爬取
+      - 印度丨TXC丨WeoworksX爬取
+      - 泰国(限定)丨TXC丨Weoworks爬取
+      - 未知1丨绿头丨WeoworksX爬取
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡丨TXC专享丨Weoworks
-      - 港独去死丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 英国1丨TXC专享丨Weoworks
-      - 英国2丨TXC专享丨Weoworks
-      - 英国3丨TXC专享丨Weoworks
-      - 未知丨TXC专享丨Weoworks
+      - 新加坡1丨TXC丨WeoworksX爬取
+      - 新加坡2丨TXC丨WeoworksX爬取
+      - 新加坡3丨TXC丨Weoworks爬取
+      - 漂亮国丨TXC专享丨Weoworks(老)
+      - 大樱花丨绿头丨WeoworksX爬取
+      - 台湾丨绿头丨WeoworksX爬取
+      - 印度丨TXC丨WeoworksX爬取
+      - 泰国(限定)丨TXC丨Weoworks爬取
+      - 未知1丨绿头丨WeoworksX爬取
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡丨TXC专享丨Weoworks
-      - 港独去死丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 英国1丨TXC专享丨Weoworks
-      - 英国2丨TXC专享丨Weoworks
-      - 英国3丨TXC专享丨Weoworks
-      - 未知丨TXC专享丨Weoworks
+      - 新加坡1丨TXC丨WeoworksX爬取
+      - 新加坡2丨TXC丨WeoworksX爬取
+      - 新加坡3丨TXC丨Weoworks爬取
+      - 漂亮国丨TXC专享丨Weoworks(老)
+      - 大樱花丨绿头丨WeoworksX爬取
+      - 台湾丨绿头丨WeoworksX爬取
+      - 印度丨TXC丨WeoworksX爬取
+      - 泰国(限定)丨TXC丨Weoworks爬取
+      - 未知1丨绿头丨WeoworksX爬取
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 新加坡丨TXC专享丨Weoworks
-      - 港独去死丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 英国1丨TXC专享丨Weoworks
-      - 英国2丨TXC专享丨Weoworks
-      - 英国3丨TXC专享丨Weoworks
-      - 未知丨TXC专享丨Weoworks
+      - 新加坡1丨TXC丨WeoworksX爬取
+      - 新加坡2丨TXC丨WeoworksX爬取
+      - 新加坡3丨TXC丨Weoworks爬取
+      - 漂亮国丨TXC专享丨Weoworks(老)
+      - 大樱花丨绿头丨WeoworksX爬取
+      - 台湾丨绿头丨WeoworksX爬取
+      - 印度丨TXC丨WeoworksX爬取
+      - 泰国(限定)丨TXC丨Weoworks爬取
+      - 未知1丨绿头丨WeoworksX爬取
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡丨TXC专享丨Weoworks
-      - 港独去死丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 英国1丨TXC专享丨Weoworks
-      - 英国2丨TXC专享丨Weoworks
-      - 英国3丨TXC专享丨Weoworks
-      - 未知丨TXC专享丨Weoworks
+      - 新加坡1丨TXC丨WeoworksX爬取
+      - 新加坡2丨TXC丨WeoworksX爬取
+      - 新加坡3丨TXC丨Weoworks爬取
+      - 漂亮国丨TXC专享丨Weoworks(老)
+      - 大樱花丨绿头丨WeoworksX爬取
+      - 台湾丨绿头丨WeoworksX爬取
+      - 印度丨TXC丨WeoworksX爬取
+      - 泰国(限定)丨TXC丨Weoworks爬取
+      - 未知1丨绿头丨WeoworksX爬取
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,13 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡丨TXC专享丨Weoworks
-      - 港独去死丨TXC专享丨Weoworks
-      - 港独去死2丨TXC专享丨Weoworks
-      - 英国1丨TXC专享丨Weoworks
-      - 英国2丨TXC专享丨Weoworks
-      - 英国3丨TXC专享丨Weoworks
-      - 未知丨TXC专享丨Weoworks
+      - 新加坡1丨TXC丨WeoworksX爬取
+      - 新加坡2丨TXC丨WeoworksX爬取
+      - 新加坡3丨TXC丨Weoworks爬取
+      - 漂亮国丨TXC专享丨Weoworks(老)
+      - 大樱花丨绿头丨WeoworksX爬取
+      - 台湾丨绿头丨WeoworksX爬取
+      - 印度丨TXC丨WeoworksX爬取
+      - 泰国(限定)丨TXC丨Weoworks爬取
+      - 未知1丨绿头丨WeoworksX爬取
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
