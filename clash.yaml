@@ -10,8 +10,9 @@ proxies:
   - {name: 新加坡3丨绿头丨WeoworksX爬取, server: 18.179.42.85, port: 56654, type: trojan, password: a63cfcc9-5b87-4b9b-b1b5-db324b7244e1, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
   - {name: 港独去死1丨TXC丨WeoworksX爬取, server: ct.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}, udp: true}
   - {name: 港独去死2丨TXC丨WeoworksX爬取, server: cm.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.mj-cn.cyou}}, udp: true}
-  - {name: 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
   - {name: 马来西亚(限定)丨鹏哥丨WeoworksX爬取, server: cm.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.mj-cn.cyou}}, udp: true}
+  - {name: 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: 阿根廷(STEAM)丨TXC限定丨WeoworksX爬取, server: ct.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}, udp: true}
   - {name: 未知1丨绿头丨WeoworksX爬取, server: 18.162.50.105, port: 43154, type: trojan, password: a63cfcc9-5b87-4b9b-b1b5-db324b7244e1, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
   - {name: 未知2丨鹏哥丨WeoworksX爬取, server: gtm.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm.mj-cn.cyou}}, udp: true}
 proxy-groups:
@@ -25,8 +26,9 @@ proxy-groups:
       - 新加坡3丨绿头丨WeoworksX爬取
       - 港独去死1丨TXC丨WeoworksX爬取
       - 港独去死2丨TXC丨WeoworksX爬取
-      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
       - 马来西亚(限定)丨鹏哥丨WeoworksX爬取
+      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
+      - 阿根廷(STEAM)丨TXC限定丨WeoworksX爬取
       - 未知1丨绿头丨WeoworksX爬取
       - 未知2丨鹏哥丨WeoworksX爬取
   - name: ♻️ 自动选择
@@ -40,8 +42,9 @@ proxy-groups:
       - 新加坡3丨绿头丨WeoworksX爬取
       - 港独去死1丨TXC丨WeoworksX爬取
       - 港独去死2丨TXC丨WeoworksX爬取
-      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
       - 马来西亚(限定)丨鹏哥丨WeoworksX爬取
+      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
+      - 阿根廷(STEAM)丨TXC限定丨WeoworksX爬取
       - 未知1丨绿头丨WeoworksX爬取
       - 未知2丨鹏哥丨WeoworksX爬取
   - name: 🌍 国外媒体
@@ -55,8 +58,9 @@ proxy-groups:
       - 新加坡3丨绿头丨WeoworksX爬取
       - 港独去死1丨TXC丨WeoworksX爬取
       - 港独去死2丨TXC丨WeoworksX爬取
-      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
       - 马来西亚(限定)丨鹏哥丨WeoworksX爬取
+      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
+      - 阿根廷(STEAM)丨TXC限定丨WeoworksX爬取
       - 未知1丨绿头丨WeoworksX爬取
       - 未知2丨鹏哥丨WeoworksX爬取
   - name: 📲 电报信息
@@ -69,8 +73,9 @@ proxy-groups:
       - 新加坡3丨绿头丨WeoworksX爬取
       - 港独去死1丨TXC丨WeoworksX爬取
       - 港独去死2丨TXC丨WeoworksX爬取
-      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
       - 马来西亚(限定)丨鹏哥丨WeoworksX爬取
+      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
+      - 阿根廷(STEAM)丨TXC限定丨WeoworksX爬取
       - 未知1丨绿头丨WeoworksX爬取
       - 未知2丨鹏哥丨WeoworksX爬取
   - name: Ⓜ️ 微软服务
@@ -83,8 +88,9 @@ proxy-groups:
       - 新加坡3丨绿头丨WeoworksX爬取
       - 港独去死1丨TXC丨WeoworksX爬取
       - 港独去死2丨TXC丨WeoworksX爬取
-      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
       - 马来西亚(限定)丨鹏哥丨WeoworksX爬取
+      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
+      - 阿根廷(STEAM)丨TXC限定丨WeoworksX爬取
       - 未知1丨绿头丨WeoworksX爬取
       - 未知2丨鹏哥丨WeoworksX爬取
   - name: 🍎 苹果服务
@@ -97,8 +103,9 @@ proxy-groups:
       - 新加坡3丨绿头丨WeoworksX爬取
       - 港独去死1丨TXC丨WeoworksX爬取
       - 港独去死2丨TXC丨WeoworksX爬取
-      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
       - 马来西亚(限定)丨鹏哥丨WeoworksX爬取
+      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
+      - 阿根廷(STEAM)丨TXC限定丨WeoworksX爬取
       - 未知1丨绿头丨WeoworksX爬取
       - 未知2丨鹏哥丨WeoworksX爬取
   - name: 🎯 全球直连
@@ -128,8 +135,9 @@ proxy-groups:
       - 新加坡3丨绿头丨WeoworksX爬取
       - 港独去死1丨TXC丨WeoworksX爬取
       - 港独去死2丨TXC丨WeoworksX爬取
-      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
       - 马来西亚(限定)丨鹏哥丨WeoworksX爬取
+      - 巨蜥噩梦(印度)丨TXC丨WeoworksX爬取
+      - 阿根廷(STEAM)丨TXC限定丨WeoworksX爬取
       - 未知1丨绿头丨WeoworksX爬取
       - 未知2丨鹏哥丨WeoworksX爬取
 rules:
