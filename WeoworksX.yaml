@@ -5,187 +5,219 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: KR丨TG@Weoworks群友专享, server: 146.56.108.108, port: 26113, type: vmess, uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享, server: 120.233.186.59, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: SG丨TG@Weoworks群友专享, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: AU丨TG@Weoworks群友专享, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: RU丨TG@Weoworks群友专享, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: US丨TG@Weoworks群友专享, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US丨TG@Weoworks群友专享 2, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 2, server: 120.233.186.71, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 3, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 4, server: 175.178.163.153, port: 443, type: vmess, uuid: 9b4d4f9c-c5bf-4a3b-a6ea-f675989d9cbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 5, server: 120.233.186.71, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: UA丨TG@Weoworks群友专享, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 6, server: 120.233.186.204, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: IN丨TG@Weoworks群友专享, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: US丨TG@Weoworks群友专享 3, server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: us2.asasas.top}}, udp: true}
-  - {name: HU丨TG@Weoworks群友专享, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 7, server: 120.233.186.59, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: JP丨TG@Weoworks群友专享, server: 150.230.60.8, port: 26195, type: vmess, uuid: 8c44be2e-2e16-4cf4-db1e-a1c8c61b7fd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US丨TG@Weoworks群友专享 4, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 8, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: e10b7aab-3498-472a-9a3f-f15800163aa7, skip-cert-verify: true, udp: true}
-  - {name: TW丨TG@Weoworks群友专享, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: HK丨TG@Weoworks群友专享, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, skip-cert-verify: true, udp: true}
-  - {name: SG丨TG@Weoworks群友专享 2, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: US丨TG@Weoworks群友专享 5, server: 155.248.162.21, port: 443, type: vmess, uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RU丨TG@Weoworks群友专享 2, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 9, server: www.tokyo2021.ga, port: 443, type: trojan, password: fa8627, skip-cert-verify: true, udp: true}
-  - {name: KR丨TG@Weoworks群友专享 2, server: 146.56.108.108, port: 26113, type: vmess, uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 10, server: 120.233.186.59, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: US丨TG@Weoworks群友专享 6, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: CZ丨TG@Weoworks群友专享, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 11, server: aaa.metao.in, port: 10622, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: aaa.metao.in}}, udp: true}
-  - {name: US丨TG@Weoworks群友专享 7, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 12, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: e10b7aab-3498-472a-9a3f-f15800163aa7, skip-cert-verify: true, udp: true}
-  - {name: CZ丨TG@Weoworks群友专享 2, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
-  - {name: CZ丨TG@Weoworks群友专享 3, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
-  - {name: IN丨TG@Weoworks群友专享 2, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: HK丨TG@Weoworks群友专享 2, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, skip-cert-verify: true, udp: true}
-  - {name: US丨TG@Weoworks群友专享 8, server: azqt001.xiba1.xyz, port: 20732, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, skip-cert-verify: true, udp: true}
-  - {name: US丨TG@Weoworks群友专享 9, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CZ丨TG@Weoworks群友专享 4, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
-  - {name: CN丨TG@Weoworks群友专享 13, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: SG新加坡丨TG@Weoworks群友专享, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: US美国丨TG@Weoworks群友专享, server: 67us01.fans8.xyz, port: 443, type: trojan, password: 86032c4e-ec6e-4523-8c1f-8e7e4ebd0d60, sni: 67us01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: GB英国丨TG@Weoworks群友专享, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享, server: sg-cn-hk-relay-3-dd4440.dukou.info, port: 9303, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 2, server: hk-route2-azure-hk8.dukou.info, port: 8308, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route2-azure-hk8.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: 丨TG@Weoworks群友专享, server: hk12-5510.dukouplan3.dev, port: 8012, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk12-5510.dukouplan3.dev, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 3, server: hk-cnrelay-13-138465.dukou.info, port: 8313, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-cnrelay-13-138465.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: AU澳大利亚丨TG@Weoworks群友专享, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 4, server: hk-route-12369-1.dukou.info, port: 8301, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route-12369-1.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 5, server: shanghai-router1-892412-jp4.dukou.info, port: 6304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp4.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 6, server: us-cn-hk-relay-2-3cc426.dukou.info, port: 7302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 7, server: tw-cn-hk-relay-1-97861a.dukou.info, port: 5301, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: tw-cn-hk-relay-1-97861a.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 8, server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-relay-6-689145.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: US美国丨TG@Weoworks群友专享 2, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 9, server: us-cn-hk-relay-4-bd5e54.dukou.info, port: 7304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: us-cn-hk-relay-4-bd5e54.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: GB英国丨TG@Weoworks群友专享 2, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: RU俄罗斯联邦丨TG@Weoworks群友专享, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 10, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: SG新加坡丨TG@Weoworks群友专享 2, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 11, server: hk-route-12369-6.dukou.info, port: 8306, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route-12369-6.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 12, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route2-azure-hk7.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 13, server: kr-cn-relay-2-32v22.dukou.info, port: 3302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: kr-cn-relay-2-32v22.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 14, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk10-gray.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 15, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 丨TG@Weoworks群友专享 2, server: tw7-5756.dukouplan3.dev, port: 5307, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: tw7-5756.dukouplan3.dev, skip-cert-verify: true, udp: true}
+  - {name: IN印度丨TG@Weoworks群友专享, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 16, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: US美国丨TG@Weoworks群友专享 3, server: 150.230.99.46, port: 22222, type: vmess, uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 17, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-sg-1.onebox6.org}}, udp: true}
+  - {name: TW台湾丨TG@Weoworks群友专享, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: US美国丨TG@Weoworks群友专享 4, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: US美国丨TG@Weoworks群友专享 5, server: 150.230.99.46, port: 22222, type: vmess, uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 18, server: shanghai-router1-892412-jp3.dukou.info, port: 6303, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp3.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 19, server: hk-route-12369-9.dukou.info, port: 8309, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, skip-cert-verify: true, udp: true}
+  - {name: 丨TG@Weoworks群友专享 3, server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, skip-cert-verify: true, udp: true}
+  - {name: US美国丨TG@Weoworks群友专享 6, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 20, server: shanghai-router2-hk5-5478.dukou.info, port: 8305, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router2-hk5-5478.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 21, server: 43.248.79.72, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 22, server: shanghai-router1-892412-jp5.dukou.info, port: 6305, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp5.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 23, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 24, server: shanghai-router1-892412-jp2.dukou.info, port: 6302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp2.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 25, server: ru02-cu-2240.dukou.info, port: 2302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: ru02-cu-2240.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: PL波兰丨TG@Weoworks群友专享, server: bl.zzk8.me, port: 40555, type: trojan, password: 9cb14d0f-9a55-426e-9f04-905ca30cf3ee, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 26, server: sg-cn-hk-relay-1-767f45.dukou.info, port: 9301, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-hk-relay-1-767f45.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: DE德国丨TG@Weoworks群友专享, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 27, server: sg-cn-hk-relay-4-40e978.dukou.info, port: 9304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, skip-cert-verify: true, udp: true}
+  - {name: CN中国丨TG@Weoworks群友专享 28, server: tw-cn-hk-relay-2-184a76.dukou.info, port: 5302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: tw-cn-hk-relay-2-184a76.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡丨TG@Weoworks群友专享 3, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: RU俄罗斯联邦丨TG@Weoworks群友专享 2, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
 proxy-groups:
   - name: WeoworksX维欧工作室😎
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享
-      - AU丨TG@Weoworks群友专享
-      - RU丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 3
-      - CN丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 5
-      - UA丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 6
-      - IN丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 3
-      - HU丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 7
-      - JP丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 8
-      - TW丨TG@Weoworks群友专享
-      - HK丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 5
-      - RU丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 9
-      - KR丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 10
-      - US丨TG@Weoworks群友专享 6
-      - CZ丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 11
-      - US丨TG@Weoworks群友专享 7
-      - CN丨TG@Weoworks群友专享 12
-      - CZ丨TG@Weoworks群友专享 2
-      - CZ丨TG@Weoworks群友专享 3
-      - IN丨TG@Weoworks群友专享 2
-      - HK丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 8
-      - US丨TG@Weoworks群友专享 9
-      - CZ丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 13
+      - SG新加坡丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享
+      - GB英国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 2
+      - 丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 3
+      - AU澳大利亚丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 4
+      - CN中国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 7
+      - CN中国丨TG@Weoworks群友专享 8
+      - US美国丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 9
+      - GB英国丨TG@Weoworks群友专享 2
+      - RU俄罗斯联邦丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 10
+      - SG新加坡丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 11
+      - CN中国丨TG@Weoworks群友专享 12
+      - CN中国丨TG@Weoworks群友专享 13
+      - CN中国丨TG@Weoworks群友专享 14
+      - CN中国丨TG@Weoworks群友专享 15
+      - 丨TG@Weoworks群友专享 2
+      - IN印度丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 16
+      - US美国丨TG@Weoworks群友专享 3
+      - CN中国丨TG@Weoworks群友专享 17
+      - TW台湾丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享 4
+      - US美国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 18
+      - CN中国丨TG@Weoworks群友专享 19
+      - 丨TG@Weoworks群友专享 3
+      - US美国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 20
+      - CN中国丨TG@Weoworks群友专享 21
+      - CN中国丨TG@Weoworks群友专享 22
+      - CN中国丨TG@Weoworks群友专享 23
+      - CN中国丨TG@Weoworks群友专享 24
+      - CN中国丨TG@Weoworks群友专享 25
+      - PL波兰丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 26
+      - DE德国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 27
+      - CN中国丨TG@Weoworks群友专享 28
+      - SG新加坡丨TG@Weoworks群友专享 3
+      - RU俄罗斯联邦丨TG@Weoworks群友专享 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 200
     proxies:
-      - KR丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享
-      - AU丨TG@Weoworks群友专享
-      - RU丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 3
-      - CN丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 5
-      - UA丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 6
-      - IN丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 3
-      - HU丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 7
-      - JP丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 8
-      - TW丨TG@Weoworks群友专享
-      - HK丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 5
-      - RU丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 9
-      - KR丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 10
-      - US丨TG@Weoworks群友专享 6
-      - CZ丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 11
-      - US丨TG@Weoworks群友专享 7
-      - CN丨TG@Weoworks群友专享 12
-      - CZ丨TG@Weoworks群友专享 2
-      - CZ丨TG@Weoworks群友专享 3
-      - IN丨TG@Weoworks群友专享 2
-      - HK丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 8
-      - US丨TG@Weoworks群友专享 9
-      - CZ丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 13
+      - SG新加坡丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享
+      - GB英国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 2
+      - 丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 3
+      - AU澳大利亚丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 4
+      - CN中国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 7
+      - CN中国丨TG@Weoworks群友专享 8
+      - US美国丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 9
+      - GB英国丨TG@Weoworks群友专享 2
+      - RU俄罗斯联邦丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 10
+      - SG新加坡丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 11
+      - CN中国丨TG@Weoworks群友专享 12
+      - CN中国丨TG@Weoworks群友专享 13
+      - CN中国丨TG@Weoworks群友专享 14
+      - CN中国丨TG@Weoworks群友专享 15
+      - 丨TG@Weoworks群友专享 2
+      - IN印度丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 16
+      - US美国丨TG@Weoworks群友专享 3
+      - CN中国丨TG@Weoworks群友专享 17
+      - TW台湾丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享 4
+      - US美国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 18
+      - CN中国丨TG@Weoworks群友专享 19
+      - 丨TG@Weoworks群友专享 3
+      - US美国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 20
+      - CN中国丨TG@Weoworks群友专享 21
+      - CN中国丨TG@Weoworks群友专享 22
+      - CN中国丨TG@Weoworks群友专享 23
+      - CN中国丨TG@Weoworks群友专享 24
+      - CN中国丨TG@Weoworks群友专享 25
+      - PL波兰丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 26
+      - DE德国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 27
+      - CN中国丨TG@Weoworks群友专享 28
+      - SG新加坡丨TG@Weoworks群友专享 3
+      - RU俄罗斯联邦丨TG@Weoworks群友专享 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - WeoworksX维欧工作室😎
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享
-      - AU丨TG@Weoworks群友专享
-      - RU丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 3
-      - CN丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 5
-      - UA丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 6
-      - IN丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 3
-      - HU丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 7
-      - JP丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 8
-      - TW丨TG@Weoworks群友专享
-      - HK丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 5
-      - RU丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 9
-      - KR丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 10
-      - US丨TG@Weoworks群友专享 6
-      - CZ丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 11
-      - US丨TG@Weoworks群友专享 7
-      - CN丨TG@Weoworks群友专享 12
-      - CZ丨TG@Weoworks群友专享 2
-      - CZ丨TG@Weoworks群友专享 3
-      - IN丨TG@Weoworks群友专享 2
-      - HK丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 8
-      - US丨TG@Weoworks群友专享 9
-      - CZ丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 13
+      - SG新加坡丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享
+      - GB英国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 2
+      - 丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 3
+      - AU澳大利亚丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 4
+      - CN中国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 7
+      - CN中国丨TG@Weoworks群友专享 8
+      - US美国丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 9
+      - GB英国丨TG@Weoworks群友专享 2
+      - RU俄罗斯联邦丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 10
+      - SG新加坡丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 11
+      - CN中国丨TG@Weoworks群友专享 12
+      - CN中国丨TG@Weoworks群友专享 13
+      - CN中国丨TG@Weoworks群友专享 14
+      - CN中国丨TG@Weoworks群友专享 15
+      - 丨TG@Weoworks群友专享 2
+      - IN印度丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 16
+      - US美国丨TG@Weoworks群友专享 3
+      - CN中国丨TG@Weoworks群友专享 17
+      - TW台湾丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享 4
+      - US美国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 18
+      - CN中国丨TG@Weoworks群友专享 19
+      - 丨TG@Weoworks群友专享 3
+      - US美国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 20
+      - CN中国丨TG@Weoworks群友专享 21
+      - CN中国丨TG@Weoworks群友专享 22
+      - CN中国丨TG@Weoworks群友专享 23
+      - CN中国丨TG@Weoworks群友专享 24
+      - CN中国丨TG@Weoworks群友专享 25
+      - PL波兰丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 26
+      - DE德国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 27
+      - CN中国丨TG@Weoworks群友专享 28
+      - SG新加坡丨TG@Weoworks群友专享 3
+      - RU俄罗斯联邦丨TG@Weoworks群友专享 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,191 +236,224 @@ proxy-groups:
       - WeoworksX维欧工作室😎
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享
-      - AU丨TG@Weoworks群友专享
-      - RU丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 3
-      - CN丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 5
-      - UA丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 6
-      - IN丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 3
-      - HU丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 7
-      - JP丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 8
-      - TW丨TG@Weoworks群友专享
-      - HK丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 5
-      - RU丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 9
-      - KR丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 10
-      - US丨TG@Weoworks群友专享 6
-      - CZ丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 11
-      - US丨TG@Weoworks群友专享 7
-      - CN丨TG@Weoworks群友专享 12
-      - CZ丨TG@Weoworks群友专享 2
-      - CZ丨TG@Weoworks群友专享 3
-      - IN丨TG@Weoworks群友专享 2
-      - HK丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 8
-      - US丨TG@Weoworks群友专享 9
-      - CZ丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 13
+      - SG新加坡丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享
+      - GB英国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 2
+      - 丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 3
+      - AU澳大利亚丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 4
+      - CN中国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 7
+      - CN中国丨TG@Weoworks群友专享 8
+      - US美国丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 9
+      - GB英国丨TG@Weoworks群友专享 2
+      - RU俄罗斯联邦丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 10
+      - SG新加坡丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 11
+      - CN中国丨TG@Weoworks群友专享 12
+      - CN中国丨TG@Weoworks群友专享 13
+      - CN中国丨TG@Weoworks群友专享 14
+      - CN中国丨TG@Weoworks群友专享 15
+      - 丨TG@Weoworks群友专享 2
+      - IN印度丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 16
+      - US美国丨TG@Weoworks群友专享 3
+      - CN中国丨TG@Weoworks群友专享 17
+      - TW台湾丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享 4
+      - US美国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 18
+      - CN中国丨TG@Weoworks群友专享 19
+      - 丨TG@Weoworks群友专享 3
+      - US美国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 20
+      - CN中国丨TG@Weoworks群友专享 21
+      - CN中国丨TG@Weoworks群友专享 22
+      - CN中国丨TG@Weoworks群友专享 23
+      - CN中国丨TG@Weoworks群友专享 24
+      - CN中国丨TG@Weoworks群友专享 25
+      - PL波兰丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 26
+      - DE德国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 27
+      - CN中国丨TG@Weoworks群友专享 28
+      - SG新加坡丨TG@Weoworks群友专享 3
+      - RU俄罗斯联邦丨TG@Weoworks群友专享 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - TW台湾丨TG@Weoworks群友专享
       - WeoworksX维欧工作室😎
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - WeoworksX维欧工作室😎
-      - KR丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享
-      - AU丨TG@Weoworks群友专享
-      - RU丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 3
-      - CN丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 5
-      - UA丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 6
-      - IN丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 3
-      - HU丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 7
-      - JP丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 8
-      - TW丨TG@Weoworks群友专享
-      - HK丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 5
-      - RU丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 9
-      - KR丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 10
-      - US丨TG@Weoworks群友专享 6
-      - CZ丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 11
-      - US丨TG@Weoworks群友专享 7
-      - CN丨TG@Weoworks群友专享 12
-      - CZ丨TG@Weoworks群友专享 2
-      - CZ丨TG@Weoworks群友专享 3
-      - IN丨TG@Weoworks群友专享 2
-      - HK丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 8
-      - US丨TG@Weoworks群友专享 9
-      - CZ丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 13
+      - SG新加坡丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享
+      - GB英国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 2
+      - 丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 3
+      - AU澳大利亚丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 4
+      - CN中国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 7
+      - CN中国丨TG@Weoworks群友专享 8
+      - US美国丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 9
+      - GB英国丨TG@Weoworks群友专享 2
+      - RU俄罗斯联邦丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 10
+      - SG新加坡丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 11
+      - CN中国丨TG@Weoworks群友专享 12
+      - CN中国丨TG@Weoworks群友专享 13
+      - CN中国丨TG@Weoworks群友专享 14
+      - CN中国丨TG@Weoworks群友专享 15
+      - 丨TG@Weoworks群友专享 2
+      - IN印度丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 16
+      - US美国丨TG@Weoworks群友专享 3
+      - CN中国丨TG@Weoworks群友专享 17
+      - TW台湾丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享 4
+      - US美国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 18
+      - CN中国丨TG@Weoworks群友专享 19
+      - 丨TG@Weoworks群友专享 3
+      - US美国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 20
+      - CN中国丨TG@Weoworks群友专享 21
+      - CN中国丨TG@Weoworks群友专享 22
+      - CN中国丨TG@Weoworks群友专享 23
+      - CN中国丨TG@Weoworks群友专享 24
+      - CN中国丨TG@Weoworks群友专享 25
+      - PL波兰丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 26
+      - DE德国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 27
+      - CN中国丨TG@Weoworks群友专享 28
+      - SG新加坡丨TG@Weoworks群友专享 3
+      - RU俄罗斯联邦丨TG@Weoworks群友专享 2
   - name: 📲 电报@WeoworksX
     type: select
     proxies:
       - WeoworksX维欧工作室😎
       - 🎯 全球直连
-      - KR丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享
-      - AU丨TG@Weoworks群友专享
-      - RU丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 3
-      - CN丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 5
-      - UA丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 6
-      - IN丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 3
-      - HU丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 7
-      - JP丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 8
-      - TW丨TG@Weoworks群友专享
-      - HK丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 5
-      - RU丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 9
-      - KR丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 10
-      - US丨TG@Weoworks群友专享 6
-      - CZ丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 11
-      - US丨TG@Weoworks群友专享 7
-      - CN丨TG@Weoworks群友专享 12
-      - CZ丨TG@Weoworks群友专享 2
-      - CZ丨TG@Weoworks群友专享 3
-      - IN丨TG@Weoworks群友专享 2
-      - HK丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 8
-      - US丨TG@Weoworks群友专享 9
-      - CZ丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 13
+      - SG新加坡丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享
+      - GB英国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 2
+      - 丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 3
+      - AU澳大利亚丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 4
+      - CN中国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 7
+      - CN中国丨TG@Weoworks群友专享 8
+      - US美国丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 9
+      - GB英国丨TG@Weoworks群友专享 2
+      - RU俄罗斯联邦丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 10
+      - SG新加坡丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 11
+      - CN中国丨TG@Weoworks群友专享 12
+      - CN中国丨TG@Weoworks群友专享 13
+      - CN中国丨TG@Weoworks群友专享 14
+      - CN中国丨TG@Weoworks群友专享 15
+      - 丨TG@Weoworks群友专享 2
+      - IN印度丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 16
+      - US美国丨TG@Weoworks群友专享 3
+      - CN中国丨TG@Weoworks群友专享 17
+      - TW台湾丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享 4
+      - US美国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 18
+      - CN中国丨TG@Weoworks群友专享 19
+      - 丨TG@Weoworks群友专享 3
+      - US美国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 20
+      - CN中国丨TG@Weoworks群友专享 21
+      - CN中国丨TG@Weoworks群友专享 22
+      - CN中国丨TG@Weoworks群友专享 23
+      - CN中国丨TG@Weoworks群友专享 24
+      - CN中国丨TG@Weoworks群友专享 25
+      - PL波兰丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 26
+      - DE德国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 27
+      - CN中国丨TG@Weoworks群友专享 28
+      - SG新加坡丨TG@Weoworks群友专享 3
+      - RU俄罗斯联邦丨TG@Weoworks群友专享 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - WeoworksX维欧工作室😎
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享
-      - AU丨TG@Weoworks群友专享
-      - RU丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 3
-      - CN丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 5
-      - UA丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 6
-      - IN丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 3
-      - HU丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 7
-      - JP丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 8
-      - TW丨TG@Weoworks群友专享
-      - HK丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 5
-      - RU丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 9
-      - KR丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 10
-      - US丨TG@Weoworks群友专享 6
-      - CZ丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 11
-      - US丨TG@Weoworks群友专享 7
-      - CN丨TG@Weoworks群友专享 12
-      - CZ丨TG@Weoworks群友专享 2
-      - CZ丨TG@Weoworks群友专享 3
-      - IN丨TG@Weoworks群友专享 2
-      - HK丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 8
-      - US丨TG@Weoworks群友专享 9
-      - CZ丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 13
+      - SG新加坡丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享
+      - GB英国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 2
+      - 丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 3
+      - AU澳大利亚丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 4
+      - CN中国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 7
+      - CN中国丨TG@Weoworks群友专享 8
+      - US美国丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 9
+      - GB英国丨TG@Weoworks群友专享 2
+      - RU俄罗斯联邦丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 10
+      - SG新加坡丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 11
+      - CN中国丨TG@Weoworks群友专享 12
+      - CN中国丨TG@Weoworks群友专享 13
+      - CN中国丨TG@Weoworks群友专享 14
+      - CN中国丨TG@Weoworks群友专享 15
+      - 丨TG@Weoworks群友专享 2
+      - IN印度丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 16
+      - US美国丨TG@Weoworks群友专享 3
+      - CN中国丨TG@Weoworks群友专享 17
+      - TW台湾丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享 4
+      - US美国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 18
+      - CN中国丨TG@Weoworks群友专享 19
+      - 丨TG@Weoworks群友专享 3
+      - US美国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 20
+      - CN中国丨TG@Weoworks群友专享 21
+      - CN中国丨TG@Weoworks群友专享 22
+      - CN中国丨TG@Weoworks群友专享 23
+      - CN中国丨TG@Weoworks群友专享 24
+      - CN中国丨TG@Weoworks群友专享 25
+      - PL波兰丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 26
+      - DE德国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 27
+      - CN中国丨TG@Weoworks群友专享 28
+      - SG新加坡丨TG@Weoworks群友专享 3
+      - RU俄罗斯联邦丨TG@Weoworks群友专享 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -403,47 +468,55 @@ proxy-groups:
       - WeoworksX维欧工作室😎
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享
-      - AU丨TG@Weoworks群友专享
-      - RU丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 3
-      - CN丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 5
-      - UA丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 6
-      - IN丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 3
-      - HU丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 7
-      - JP丨TG@Weoworks群友专享
-      - US丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 8
-      - TW丨TG@Weoworks群友专享
-      - HK丨TG@Weoworks群友专享
-      - SG丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 5
-      - RU丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 9
-      - KR丨TG@Weoworks群友专享 2
-      - CN丨TG@Weoworks群友专享 10
-      - US丨TG@Weoworks群友专享 6
-      - CZ丨TG@Weoworks群友专享
-      - CN丨TG@Weoworks群友专享 11
-      - US丨TG@Weoworks群友专享 7
-      - CN丨TG@Weoworks群友专享 12
-      - CZ丨TG@Weoworks群友专享 2
-      - CZ丨TG@Weoworks群友专享 3
-      - IN丨TG@Weoworks群友专享 2
-      - HK丨TG@Weoworks群友专享 2
-      - US丨TG@Weoworks群友专享 8
-      - US丨TG@Weoworks群友专享 9
-      - CZ丨TG@Weoworks群友专享 4
-      - CN丨TG@Weoworks群友专享 13
+      - SG新加坡丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享
+      - GB英国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 2
+      - 丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 3
+      - AU澳大利亚丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 4
+      - CN中国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 7
+      - CN中国丨TG@Weoworks群友专享 8
+      - US美国丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 9
+      - GB英国丨TG@Weoworks群友专享 2
+      - RU俄罗斯联邦丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 10
+      - SG新加坡丨TG@Weoworks群友专享 2
+      - CN中国丨TG@Weoworks群友专享 11
+      - CN中国丨TG@Weoworks群友专享 12
+      - CN中国丨TG@Weoworks群友专享 13
+      - CN中国丨TG@Weoworks群友专享 14
+      - CN中国丨TG@Weoworks群友专享 15
+      - 丨TG@Weoworks群友专享 2
+      - IN印度丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 16
+      - US美国丨TG@Weoworks群友专享 3
+      - CN中国丨TG@Weoworks群友专享 17
+      - TW台湾丨TG@Weoworks群友专享
+      - US美国丨TG@Weoworks群友专享 4
+      - US美国丨TG@Weoworks群友专享 5
+      - CN中国丨TG@Weoworks群友专享 18
+      - CN中国丨TG@Weoworks群友专享 19
+      - 丨TG@Weoworks群友专享 3
+      - US美国丨TG@Weoworks群友专享 6
+      - CN中国丨TG@Weoworks群友专享 20
+      - CN中国丨TG@Weoworks群友专享 21
+      - CN中国丨TG@Weoworks群友专享 22
+      - CN中国丨TG@Weoworks群友专享 23
+      - CN中国丨TG@Weoworks群友专享 24
+      - CN中国丨TG@Weoworks群友专享 25
+      - PL波兰丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 26
+      - DE德国丨TG@Weoworks群友专享
+      - CN中国丨TG@Weoworks群友专享 27
+      - CN中国丨TG@Weoworks群友专享 28
+      - SG新加坡丨TG@Weoworks群友专享 3
+      - RU俄罗斯联邦丨TG@Weoworks群友专享 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
