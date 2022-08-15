@@ -5,197 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇦🇺 AU丨TG@WeoworksX, server: 185.167.116.253, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX, server: 38.75.136.135, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CH丨TG@WeoworksX, server: 185.126.116.123, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX, server: 213.183.59.206, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX 2, server: 38.75.136.135, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX 3, server: 38.121.43.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX 4, server: 38.121.43.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CH丨TG@WeoworksX 2, server: 185.126.116.123, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 2, server: 213.183.59.211, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: CH丨TG@WeoworksX 3, server: 185.126.116.123, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 2, server: 185.167.116.24, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 3, server: 213.183.59.218, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 🇬🇧 GB丨TG@WeoworksX, server: 172.99.190.39, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇨🇳 CN丨TG@WeoworksX, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 3, server: 185.167.116.253, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: CH丨TG@WeoworksX 4, server: 185.126.116.123, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 4, server: 213.183.59.211, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: 🇯🇵 JP丨TG@WeoworksX, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 5, server: 213.183.59.206, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 🇸🇬 SG丨TG@WeoworksX, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 6, server: 213.183.59.211, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 4, server: 185.167.116.253, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX 5, server: 167.88.61.175, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CH丨TG@WeoworksX 5, server: 185.126.116.123, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: 🇯🇵 JP丨TG@WeoworksX 2, server: 85.208.108.90, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 5, server: 185.167.116.24, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 6, server: 185.167.116.253, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 7, server: 185.167.116.38, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 7, server: 213.183.59.211, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: CH丨TG@WeoworksX 6, server: 185.126.116.123, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX 6, server: 167.88.63.82, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 8, server: 213.183.59.229, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: 🇬🇧 GB丨TG@WeoworksX 2, server: 54.36.174.181, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 9, server: 213.183.59.185, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 8, server: 185.167.116.24, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 10, server: 213.183.59.206, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: 🇬🇧 GB丨TG@WeoworksX 3, server: 54.36.174.181, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇭🇰 HK丨TG@WeoworksX, server: 20.187.95.117, port: 8443, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 RU丨TG@WeoworksX, server: 213.183.53.214, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: CH丨TG@WeoworksX 7, server: 185.126.116.123, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 9, server: 185.167.116.253, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 🇰🇷 KR丨TG@WeoworksX, server: 146.56.184.242, port: 19570, type: vmess, uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN丨TG@WeoworksX 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: 🇷🇺 RU丨TG@WeoworksX 2, server: 213.183.53.212, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 11, server: 213.183.51.171, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 12, server: 213.183.59.206, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: 🇦🇺 AU丨TG@WeoworksX 10, server: 185.167.116.253, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 🇬🇧 GB丨TG@WeoworksX 4, server: 54.36.174.181, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX 7, server: 38.91.102.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 13, server: 213.183.59.206, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 14, server: 213.183.51.172, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: 🇷🇺 RU丨TG@WeoworksX 3, server: 213.183.53.207, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: 🇨🇦 CA丨TG@WeoworksX, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CH丨TG@WeoworksX 8, server: 185.126.116.123, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX 8, server: 167.88.62.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 15, server: 213.183.59.190, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 🇷🇺 RU丨TG@WeoworksX 4, server: 213.183.53.179, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 🇺🇸 US丨TG@WeoworksX 9, server: 38.75.136.135, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇷🇺 RU丨TG@WeoworksX 5, server: 213.183.53.198, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
-  - {name: 🇳🇱 NL丨TG@WeoworksX 16, server: 213.183.59.206, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 2, server: 85.208.108.94, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 US丨TG@WeoworksX, server: 38.121.43.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 3, server: 85.208.108.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 4, server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 5, server: 85.208.108.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 6, server: 85.208.108.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 7, server: 85.208.108.94, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: IT丨TG@WeoworksX, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 8, server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 9, server: 85.208.108.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 10, server: 85.208.108.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 11, server: 85.208.108.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 US丨TG@WeoworksX 2, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇸 US丨TG@WeoworksX 3, server: 167.88.61.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 12, server: 85.208.108.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇺🇸 US丨TG@WeoworksX 4, server: 167.88.61.14, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 13, server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 US丨TG@WeoworksX 5, server: 167.88.61.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇨🇳 TW丨TG@WeoworksX, server: v2tw3.doubledou.win, port: 4598, type: trojan, password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 14, server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 15, server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 16, server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 17, server: 168.138.214.114, port: 443, type: vmess, uuid: e35159d7-e8fb-479c-b490-e8e9a924e0c6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /a9S24DC8US}, udp: true}
+  - {name: 🇨🇳 CN丨TG@WeoworksX, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP丨TG@WeoworksX 18, server: 85.208.108.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇨🇳 CN丨TG@WeoworksX 2, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 NL丨TG@WeoworksX, server: 213.183.59.190, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
 proxy-groups:
   - name: 😎 WeoworksX
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇦🇺 AU丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 2
       - 🇺🇸 US丨TG@WeoworksX
-      - CH丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 3
+      - 🇯🇵 JP丨TG@WeoworksX 4
+      - 🇯🇵 JP丨TG@WeoworksX 5
+      - 🇯🇵 JP丨TG@WeoworksX 6
+      - 🇯🇵 JP丨TG@WeoworksX 7
+      - IT丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 8
+      - 🇯🇵 JP丨TG@WeoworksX 9
+      - 🇯🇵 JP丨TG@WeoworksX 10
+      - 🇯🇵 JP丨TG@WeoworksX 11
       - 🇺🇸 US丨TG@WeoworksX 2
       - 🇺🇸 US丨TG@WeoworksX 3
+      - 🇯🇵 JP丨TG@WeoworksX 12
       - 🇺🇸 US丨TG@WeoworksX 4
-      - CH丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 2
-      - CH丨TG@WeoworksX 3
-      - 🇦🇺 AU丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 3
-      - 🇬🇧 GB丨TG@WeoworksX
-      - 🇨🇳 CN丨TG@WeoworksX
-      - 🇦🇺 AU丨TG@WeoworksX 3
-      - CH丨TG@WeoworksX 4
-      - 🇳🇱 NL丨TG@WeoworksX 4
-      - 🇯🇵 JP丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX 5
-      - 🇸🇬 SG丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX 6
-      - 🇦🇺 AU丨TG@WeoworksX 4
+      - 🇯🇵 JP丨TG@WeoworksX 13
       - 🇺🇸 US丨TG@WeoworksX 5
-      - CH丨TG@WeoworksX 5
-      - 🇯🇵 JP丨TG@WeoworksX 2
-      - 🇦🇺 AU丨TG@WeoworksX 5
-      - 🇦🇺 AU丨TG@WeoworksX 6
-      - 🇦🇺 AU丨TG@WeoworksX 7
-      - 🇳🇱 NL丨TG@WeoworksX 7
-      - CH丨TG@WeoworksX 6
-      - 🇺🇸 US丨TG@WeoworksX 6
-      - 🇳🇱 NL丨TG@WeoworksX 8
-      - 🇬🇧 GB丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 9
-      - 🇦🇺 AU丨TG@WeoworksX 8
-      - 🇳🇱 NL丨TG@WeoworksX 10
-      - 🇬🇧 GB丨TG@WeoworksX 3
-      - 🇭🇰 HK丨TG@WeoworksX
-      - 🇷🇺 RU丨TG@WeoworksX
-      - CH丨TG@WeoworksX 7
-      - 🇦🇺 AU丨TG@WeoworksX 9
-      - 🇰🇷 KR丨TG@WeoworksX
+      - 🇨🇳 TW丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 14
+      - 🇯🇵 JP丨TG@WeoworksX 15
+      - 🇯🇵 JP丨TG@WeoworksX 16
+      - 🇯🇵 JP丨TG@WeoworksX 17
+      - 🇨🇳 CN丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 18
       - 🇨🇳 CN丨TG@WeoworksX 2
-      - 🇷🇺 RU丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 11
-      - 🇳🇱 NL丨TG@WeoworksX 12
-      - 🇦🇺 AU丨TG@WeoworksX 10
-      - 🇬🇧 GB丨TG@WeoworksX 4
-      - 🇺🇸 US丨TG@WeoworksX 7
-      - 🇳🇱 NL丨TG@WeoworksX 13
-      - 🇳🇱 NL丨TG@WeoworksX 14
-      - 🇷🇺 RU丨TG@WeoworksX 3
-      - 🇨🇦 CA丨TG@WeoworksX
-      - CH丨TG@WeoworksX 8
-      - 🇺🇸 US丨TG@WeoworksX 8
-      - 🇳🇱 NL丨TG@WeoworksX 15
-      - 🇷🇺 RU丨TG@WeoworksX 4
-      - 🇺🇸 US丨TG@WeoworksX 9
-      - 🇷🇺 RU丨TG@WeoworksX 5
-      - 🇳🇱 NL丨TG@WeoworksX 16
+      - 🇳🇱 NL丨TG@WeoworksX
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 200
     proxies:
-      - 🇦🇺 AU丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 2
       - 🇺🇸 US丨TG@WeoworksX
-      - CH丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 3
+      - 🇯🇵 JP丨TG@WeoworksX 4
+      - 🇯🇵 JP丨TG@WeoworksX 5
+      - 🇯🇵 JP丨TG@WeoworksX 6
+      - 🇯🇵 JP丨TG@WeoworksX 7
+      - IT丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 8
+      - 🇯🇵 JP丨TG@WeoworksX 9
+      - 🇯🇵 JP丨TG@WeoworksX 10
+      - 🇯🇵 JP丨TG@WeoworksX 11
       - 🇺🇸 US丨TG@WeoworksX 2
       - 🇺🇸 US丨TG@WeoworksX 3
+      - 🇯🇵 JP丨TG@WeoworksX 12
       - 🇺🇸 US丨TG@WeoworksX 4
-      - CH丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 2
-      - CH丨TG@WeoworksX 3
-      - 🇦🇺 AU丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 3
-      - 🇬🇧 GB丨TG@WeoworksX
-      - 🇨🇳 CN丨TG@WeoworksX
-      - 🇦🇺 AU丨TG@WeoworksX 3
-      - CH丨TG@WeoworksX 4
-      - 🇳🇱 NL丨TG@WeoworksX 4
-      - 🇯🇵 JP丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX 5
-      - 🇸🇬 SG丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX 6
-      - 🇦🇺 AU丨TG@WeoworksX 4
+      - 🇯🇵 JP丨TG@WeoworksX 13
       - 🇺🇸 US丨TG@WeoworksX 5
-      - CH丨TG@WeoworksX 5
-      - 🇯🇵 JP丨TG@WeoworksX 2
-      - 🇦🇺 AU丨TG@WeoworksX 5
-      - 🇦🇺 AU丨TG@WeoworksX 6
-      - 🇦🇺 AU丨TG@WeoworksX 7
-      - 🇳🇱 NL丨TG@WeoworksX 7
-      - CH丨TG@WeoworksX 6
-      - 🇺🇸 US丨TG@WeoworksX 6
-      - 🇳🇱 NL丨TG@WeoworksX 8
-      - 🇬🇧 GB丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 9
-      - 🇦🇺 AU丨TG@WeoworksX 8
-      - 🇳🇱 NL丨TG@WeoworksX 10
-      - 🇬🇧 GB丨TG@WeoworksX 3
-      - 🇭🇰 HK丨TG@WeoworksX
-      - 🇷🇺 RU丨TG@WeoworksX
-      - CH丨TG@WeoworksX 7
-      - 🇦🇺 AU丨TG@WeoworksX 9
-      - 🇰🇷 KR丨TG@WeoworksX
+      - 🇨🇳 TW丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 14
+      - 🇯🇵 JP丨TG@WeoworksX 15
+      - 🇯🇵 JP丨TG@WeoworksX 16
+      - 🇯🇵 JP丨TG@WeoworksX 17
+      - 🇨🇳 CN丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 18
       - 🇨🇳 CN丨TG@WeoworksX 2
-      - 🇷🇺 RU丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 11
-      - 🇳🇱 NL丨TG@WeoworksX 12
-      - 🇦🇺 AU丨TG@WeoworksX 10
-      - 🇬🇧 GB丨TG@WeoworksX 4
-      - 🇺🇸 US丨TG@WeoworksX 7
-      - 🇳🇱 NL丨TG@WeoworksX 13
-      - 🇳🇱 NL丨TG@WeoworksX 14
-      - 🇷🇺 RU丨TG@WeoworksX 3
-      - 🇨🇦 CA丨TG@WeoworksX
-      - CH丨TG@WeoworksX 8
-      - 🇺🇸 US丨TG@WeoworksX 8
-      - 🇳🇱 NL丨TG@WeoworksX 15
-      - 🇷🇺 RU丨TG@WeoworksX 4
-      - 🇺🇸 US丨TG@WeoworksX 9
-      - 🇷🇺 RU丨TG@WeoworksX 5
-      - 🇳🇱 NL丨TG@WeoworksX 16
+      - 🇳🇱 NL丨TG@WeoworksX
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -213,66 +117,34 @@ proxy-groups:
       - 😎 WeoworksX
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺 AU丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 2
       - 🇺🇸 US丨TG@WeoworksX
-      - CH丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 3
+      - 🇯🇵 JP丨TG@WeoworksX 4
+      - 🇯🇵 JP丨TG@WeoworksX 5
+      - 🇯🇵 JP丨TG@WeoworksX 6
+      - 🇯🇵 JP丨TG@WeoworksX 7
+      - IT丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 8
+      - 🇯🇵 JP丨TG@WeoworksX 9
+      - 🇯🇵 JP丨TG@WeoworksX 10
+      - 🇯🇵 JP丨TG@WeoworksX 11
       - 🇺🇸 US丨TG@WeoworksX 2
       - 🇺🇸 US丨TG@WeoworksX 3
+      - 🇯🇵 JP丨TG@WeoworksX 12
       - 🇺🇸 US丨TG@WeoworksX 4
-      - CH丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 2
-      - CH丨TG@WeoworksX 3
-      - 🇦🇺 AU丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 3
-      - 🇬🇧 GB丨TG@WeoworksX
-      - 🇨🇳 CN丨TG@WeoworksX
-      - 🇦🇺 AU丨TG@WeoworksX 3
-      - CH丨TG@WeoworksX 4
-      - 🇳🇱 NL丨TG@WeoworksX 4
-      - 🇯🇵 JP丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX 5
-      - 🇸🇬 SG丨TG@WeoworksX
-      - 🇳🇱 NL丨TG@WeoworksX 6
-      - 🇦🇺 AU丨TG@WeoworksX 4
+      - 🇯🇵 JP丨TG@WeoworksX 13
       - 🇺🇸 US丨TG@WeoworksX 5
-      - CH丨TG@WeoworksX 5
-      - 🇯🇵 JP丨TG@WeoworksX 2
-      - 🇦🇺 AU丨TG@WeoworksX 5
-      - 🇦🇺 AU丨TG@WeoworksX 6
-      - 🇦🇺 AU丨TG@WeoworksX 7
-      - 🇳🇱 NL丨TG@WeoworksX 7
-      - CH丨TG@WeoworksX 6
-      - 🇺🇸 US丨TG@WeoworksX 6
-      - 🇳🇱 NL丨TG@WeoworksX 8
-      - 🇬🇧 GB丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 9
-      - 🇦🇺 AU丨TG@WeoworksX 8
-      - 🇳🇱 NL丨TG@WeoworksX 10
-      - 🇬🇧 GB丨TG@WeoworksX 3
-      - 🇭🇰 HK丨TG@WeoworksX
-      - 🇷🇺 RU丨TG@WeoworksX
-      - CH丨TG@WeoworksX 7
-      - 🇦🇺 AU丨TG@WeoworksX 9
-      - 🇰🇷 KR丨TG@WeoworksX
+      - 🇨🇳 TW丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 14
+      - 🇯🇵 JP丨TG@WeoworksX 15
+      - 🇯🇵 JP丨TG@WeoworksX 16
+      - 🇯🇵 JP丨TG@WeoworksX 17
+      - 🇨🇳 CN丨TG@WeoworksX
+      - 🇯🇵 JP丨TG@WeoworksX 18
       - 🇨🇳 CN丨TG@WeoworksX 2
-      - 🇷🇺 RU丨TG@WeoworksX 2
-      - 🇳🇱 NL丨TG@WeoworksX 11
-      - 🇳🇱 NL丨TG@WeoworksX 12
-      - 🇦🇺 AU丨TG@WeoworksX 10
-      - 🇬🇧 GB丨TG@WeoworksX 4
-      - 🇺🇸 US丨TG@WeoworksX 7
-      - 🇳🇱 NL丨TG@WeoworksX 13
-      - 🇳🇱 NL丨TG@WeoworksX 14
-      - 🇷🇺 RU丨TG@WeoworksX 3
-      - 🇨🇦 CA丨TG@WeoworksX
-      - CH丨TG@WeoworksX 8
-      - 🇺🇸 US丨TG@WeoworksX 8
-      - 🇳🇱 NL丨TG@WeoworksX 15
-      - 🇷🇺 RU丨TG@WeoworksX 4
-      - 🇺🇸 US丨TG@WeoworksX 9
-      - 🇷🇺 RU丨TG@WeoworksX 5
-      - 🇳🇱 NL丨TG@WeoworksX 16
+      - 🇳🇱 NL丨TG@WeoworksX
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
